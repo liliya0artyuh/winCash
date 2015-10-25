@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<!-- source file name = winCash -->
+<!-- Author: Liliya Artyukh -->
+<!-- Description = assignment 2 for Web Game Development course. Slot machine. -->
+<!-- created = October 2015 -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Win Cash</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="app.js"></script>
+
+    <!-- CSS Section -->
+    <link href="Content/reset.css" rel="stylesheet" />
+    <link href="Content/game.css" rel="stylesheet" />
+</head>
+<body onload="preload();">
+    <div id="game">
+        <canvas id="canvas" width="755" height="566"></canvas>
+        <div id="dropBoxDiv"></div>
+    </div>
+    <!-- JavaScript Libraries-->
+    <script src="Scripts/lib/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/lib/Stats.js"></script>
+    <script src="Scripts/lib/easeljs-0.8.1.min.js"></script>
+    <script src="Scripts/lib/tweenjs-0.6.1.min.js"></script>
+    <script src="Scripts/lib/soundjs-0.6.1.min.js"></script>
+    <script src="Scripts/lib/preloadjs-0.6.1.min.js"></script>
+    <!-- Game Scripts -->
+    <script src="Scripts/config/config.js"></script>
+    <script src="Scripts/objects/label.js"></script>
+    <script src="Scripts/objects/button.js"></script>
+    <script src="Scripts/objects/scene.js"></script>
+
+    <script src="Scripts/states/over.js"></script>
+    <script src="Scripts/states/game.js"></script>
+    <script src="Scripts/states/menu.js"></script>
+    <script src="Scripts/core/game.js"></script>
+</body>
+</html>

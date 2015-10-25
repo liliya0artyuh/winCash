@@ -1,0 +1,32 @@
+﻿body {
+        background-color: lightslategrey;
+}
+
+
+
+#game {
+    width: 755px;
+    height: 566px;
+    position: relative;
+    margin: 0 auto;
+}
+
+canvas {
+    border: 1px solid black;
+        background-color: darkgray;
+        background-image: url(../Assets/images/slotMachine.png);
+    position: relative;
+}
+
+
+
+#dropBoxDiv {
+    position: absolute;
+    top: 452px;
+    right: 454px;
+    z-index: 101;
+    width: 150px;
+    height: 20px;
+}
+
+

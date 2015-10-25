@@ -1,0 +1,54 @@
+{
+
+"images": [
+    "atlas.png"
+],
+
+"frames": [
+    [2, 2, 120, 118, 0, 0, 0],
+    [124, 2, 120, 118, 0, 0, 0],
+    [246, 2, 120, 118, 0, 0, 0],
+    [368, 2, 120, 118, 0, 0, 0],
+    [490, 2, 120, 118, 0, 0, 0],
+    [612, 2, 120, 118, 0, 0, 0],
+    [734, 2, 120, 118, 0, 0, 0],
+    [856, 2, 120, 118, 0, 0, 0],
+    [978, 2, 120, 118, 0, 0, 0],
+    [1100, 2, 120, 118, 0, 0, 0],
+    [1222, 2, 120, 118, 0, 0, 0],
+    [1344, 2, 120, 117, 0, 0, 0],
+    [1466, 2, 79, 77, 0, 0, 0],
+    [1466, 81, 158, 38, 0, 0, 0],
+    [1547, 2, 79, 77, 0, 0, 0],
+    [1628, 2, 158, 38, 0, 0, 0],
+    [1628, 42, 158, 38, 0, 0, 0],
+    [1626, 82, 157, 38, 0, 0, 0]
+],
+
+"animations": {
+    "blank": [0],
+    "flower_blue_s": [1],
+    "flower_green_s": [2],
+    "flower_orange_s": [3],
+    "flower_red_s": [4],
+    "flower_white_s": [5],
+    "flower_yellow_s": [6],
+    "purchase": [7],
+    "purchase1": [8],
+    "purchase2": [9],
+    "spin": [10],
+    "flower_black_s": [11],
+    "quitBtn": [12],
+    "resetBtn_grey": [13],
+    "startBtn": [14],
+    "spinBtn": [15],
+    "spinBtn_grey": [16],
+    "resetBtn": [17]
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:dd562907cce7101de3195bf53336a421:a204af90ea3d812f4191973715315da2:cbce6b53f0f49e0bf15173c25c41f876$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}
